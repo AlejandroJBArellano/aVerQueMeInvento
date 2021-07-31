@@ -1,0 +1,36 @@
+{
+  "name": "newapp",
+  "version": "0.1.0",
+  "description": "a random app",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroJBArellano/aVerQueMeInvento.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "alejandrojbarellano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroJBArellano/aVerQueMeInvento/issues"
+  },
+  "homepage": "https://github.com/AlejandroJBArellano/aVerQueMeInvento#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
